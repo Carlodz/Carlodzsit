@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=yes">
+<meta name="theme-color" content="#050505">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<title>CARLODZ — FiveM Scripts & More</title>
+<meta name="description" content="CARLODZ FiveM scripts, custom systems and server solutions.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="assets/carlodz.svg">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home">
+    <img src="assets/carlodz-logo.png" alt="CARLODZ">
+    <span><b>CARLODZ</b><small>FIVEM SCRIPTS & MORE</small></span>
+  </a>
+  <nav id="nav">
+    <a class="active" href="#home">Home</a>
+    <a href="#scripts">Scripts</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="top-actions">
+    <div class="search"><img class="ui-icon" src="assets/icons/search.svg" alt=""><input id="search" placeholder="Search scripts..."></div>
+    <button class="icon-btn" id="themeBtn" aria-label="Theme"><img class="ui-icon" src="assets/icons/moon.svg" alt=""></button>
+    <a class="discord-top" href="https://discord.gg/4JWVgWwpxr" target="_blank"><img class="mini-icon" src="assets/icons/discord.svg" alt=""> Discord</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><img class="ui-icon" src="assets/icons/menu.svg" alt=""></button>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-copy">
+    <div class="eyebrow">WELCOME TO</div>
+    <h1>CARLO<span>DZ</span></h1>
+    <h2>HIGH QUALITY FIVEM SCRIPTS</h2>
+    <p>Premium scripts, custom solutions and unique experiences for your FiveM server.</p>
+    <div class="hero-buttons">
+      <a class="primary" href="#scripts">Explore Scripts <b>→</b></a>
+      <button class="trailer" id="trailerBtn"><i><img src="assets/icons/play.svg" alt=""></i> Watch Trailer</button>
+    </div>
+  </div>
+  <div class="hero-character">
+    <div class="character-glow"></div>
+    <img class="hero-reference hero-reference-rotate" src="assets/design-reference.png" alt="CARLODZ gaming showcase">
+    <div class="character-label">BETTER SCRIPTS<br><em>BIGGER DREAMS</em></div>
+  </div>
+</section>
+
+<section class="features">
+  <div><b><img src="assets/icons/bolt.svg" alt=""></b><strong>Premium Quality</strong><span>Well Tested & Optimized</span></div>
+  <div><b><img src="assets/icons/shield.svg" alt=""></b><strong>100% Secure</strong><span>No Bugs | No Risk</span></div>
+  <div><b><img src="assets/icons/support.svg" alt=""></b><strong>Fast Support</strong><span>Always Here for You</span></div>
+  <div><b><img src="assets/icons/community.svg" alt=""></b><strong>Active Community</strong><span>Join Our Discord</span></div>
+  <div><b><img src="assets/icons/refresh.svg" alt=""></b><strong>Regular Updates</strong><span>New Features & Fixes</span></div>
+</section>
+
+<section class="content" id="scripts">
+  <div class="section-title">
+    <div><small>FEATURED SCRIPTS</small><h2>OUR <em>SCRIPTS</em></h2><p>Discover our most popular and high-quality scripts for your FiveM server.</p></div>
+    <a href="#scripts">View All Scripts →</a>
+  </div>
+<div class="layout">
+    <div class="cards" id="cards">
+      <article class="script-card" data-name="hunting zone hunting">
+        <div class="cover hunting-cover">
+          <img class="cover-logo" src="assets/carlodz-logo.png" alt="Hunting Zone">
+          <span class="new">FREE</span>
+        </div>
+        <div class="card-body">
+          <h3>Hunting Zone</h3><p>Free Hunting Script</p>
+          <div class="desc">A free hunting zone script for your FiveM server.</div>
+          <div class="tags"><span>QBCore</span><span>Free</span><span>Hunting</span><span>Zone</span></div>
+        </div>
+      </article>
+      <article class="script-card" data-category="premium" data-name="wayscoot scooter rental">
+        <div class="cover wayscoot-cover video-cover" data-video-cover="wayscoot">
+          <img class="wayscoot-logo cover-logo" src="assets/wayscoot-logo.png" alt="WayScoot">
+          <iframe class="script-video" title="WayScoot video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+          <button class="video-close" type="button">×</button>
+          <span class="new">NEW</span><span class="paid-badge">PAID</span>
+        </div>
+        <div class="card-body">
+          <h3>WayScoot</h3><p>Scooter Rental Script</p>
+          <div class="desc">Rent scooters easily with a modern NUI, multiple stations and full payment system.</div>
+          <div class="tags"><span>QBCore</span><span>Target</span><span>NUI</span><span>Rental</span><button class="watch-video" data-video="wayscoot"><img src="assets/icons/play.svg" alt=""> Watch Video</button></div>
+        </div>
+      </article>
+
+      <article class="script-card" data-category="premium" data-name="burger shot restaurant job">
+        <div class="cover burger-cover video-cover" data-video-cover="burgershot">
+          <img class="cover-logo" src="assets/burgershot-logo.png" alt="Burger Shot">
+          <iframe class="script-video" title="Burger Shot video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+          <button class="video-close" type="button">×</button>
+          <span class="new">NEW</span><span class="paid-badge">PAID</span>
+        </div>
+        <div class="card-body">
+          <h3>Burger Shot</h3><p>Restaurant Job Script</p>
+          <div class="desc">Cook, prepare and deliver delicious meals. Full job system with animations and props.</div>
+          <div class="tags"><span>QBCore</span><span>Job</span><span>NUI</span><span>Delivery</span><button class="watch-video" data-video="burgershot"><img src="assets/icons/play.svg" alt=""> Watch Video</button></div>
+        </div>
+      </article>
+
+      <article class="script-card" data-category="premium" data-name="carlodz pets animal system">
+        <div class="cover pets-cover video-cover" data-video-cover="pets">
+          <img class="pets-logo cover-logo" src="assets/waypets-logo.png" alt="WayPets">
+          <iframe class="script-video" title="Carlodz Pets video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+          <button class="video-close" type="button">×</button>
+          <span class="new">NEW</span><span class="paid-badge">PAID</span>
+        </div>
+        <div class="card-body">
+          <h3>Carlodz Pets</h3><p>Pets System Script</p>
+          <div class="desc">Adopt, train and take care of your pets. Hunger, happiness and more features.</div>
+          <div class="tags"><span>QBCore</span><span>NUI</span><span>Animals</span><span>System</span><button class="watch-video" data-video="pets"><img src="assets/icons/play.svg" alt=""> Watch Video</button></div>
+        </div>
+      </article>
+    </div>
+
+    <aside class="side">
+      <div class="discord-card">
+        <img src="assets/discord-logo.png" alt="Discord">
+        <h3>JOIN OUR<br>DISCORD SERVER</h3>
+        <p>Be part of our community and get the latest updates!</p>
+        <a href="https://discord.gg/4JWVgWwpxr" target="_blank">Join Now →</a>
+      </div>
+      <div class="social-card">
+        <b>＼ Stay Connected</b>
+        <div class="socials socials-wide"><a href="https://discord.gg/4JWVgWwpxr" target="_blank" rel="noopener noreferrer"><img src="assets/icons/discord.svg" alt="Discord"><small>Discord</small></a>
+          <a href="https://www.youtube.com/@carlodzgame" target="_blank" rel="noopener noreferrer"><img src="assets/icons/youtube.svg" alt="YouTube"><small>YouTube</small></a>
+          <a href="https://www.tiktok.com/@me.carlodz" target="_blank" rel="noopener noreferrer"><img src="assets/icons/tiktok.svg" alt="TikTok"><small>TikTok</small></a>
+          <a href="https://www.twitch.tv/carlodz21" target="_blank" rel="noopener noreferrer"><img src="assets/icons/twitch.svg" alt="Twitch"><small>Twitch</small></a>
+          <a href="https://kick.com/carlodz" target="_blank" rel="noopener noreferrer"><img src="assets/icons/kick.svg" alt="Kick"><small>Kick</small></a></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div><small>ABOUT CARLODZ</small><h2>BUILT FOR <em>FIVEM</em></h2></div>
+  <p>CARLODZ creates custom FiveM resources with polished NUI, gameplay systems, optimized performance and a focus on clean server integration.</p>
+</section>
+
+<section class="contact" id="contact">
+  <div><small>NEED HELP?</small><h2>LET'S BUILD<br><em>SOMETHING</em></h2></div>
+  <a class="primary" href="https://discord.gg/4JWVgWwpxr" target="_blank">Contact on Discord →</a>
+</section>
+</main>
+
+<footer><div class="footer-brand"><img src="assets/carlodz-logo.png"><span>CARLODZ<small>FIVEM SCRIPTS & MORE</small></span></div><p>© 2026 CARLODZ. All rights reserved. | FiveM Scripts & Custom Solutions.</p><b>THANK YOU<br>FOR YOUR SUPPORT!</b></footer>
+
+<script src="app.js"></script>
+</body>
+</html>
